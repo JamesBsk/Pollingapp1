@@ -1,0 +1,62 @@
+
+   body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.dribbble.com/users/2172077/screenshots/6662726/american-ballot-box-paper-vote-wtc-hd-anim_still_2x.gif?resize=400x0');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #118aa9;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #118aa9;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #118aa9;
+}
+
